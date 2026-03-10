@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  whisper-api:
+    build: .
+    container_name: whisper_api
+    ports:
+      - "8010:8000"
+    volumes:
+      - /root/whisper.cpp:/whisper:ro
+    restart: unless-stopped
