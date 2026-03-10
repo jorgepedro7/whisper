@@ -54,8 +54,8 @@ bash models/download-ggml-model.sh large-v3
 ## 3. Subir a API
 
 ```bash
-git clone https://github.com/seu-usuario/whisper-api.git
-cd whisper-api
+git clone https://github.com/jorgepedro7/whisper.git
+cd whisper
 
 docker compose up -d
 ```
